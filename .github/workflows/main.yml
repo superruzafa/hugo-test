@@ -22,9 +22,8 @@ jobs:
       - name: Build
         run: hugo
 
-      - name: Deploy to GitHub Pages
-        uses: cecilapp/github-pages-deploy@master
-        env:
-          EMAIL: superruzafa@gmail.com
-          GH_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
-          BUILD_DIR: public
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.DEPLOY_TOKEN }}
+          publish_dir: ./public

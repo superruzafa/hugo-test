@@ -1,17 +1,14 @@
-name: build and deploy
+name: Deploy to GitHub Pages
 
-on:
-  push:
+on: push
 
 jobs:
-  build:
+  hugo-deploy-gh-pages:
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v2
-    - name: Run a one-line script
-      run: echo Hello, world!
-    - name: Run a multi-line script
-      run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
+    - uses: actions/checkout@master
+    - name: hugo-deploy-gh-pages
+      uses: khanhicetea/gh-actions-hugo-deploy-gh-pages@master
+      env:
+        GIT_DEPLOY_KEY: ${{ secrets.GIT_DEPLOY_KEY }}
+        HUGO_VERSION: "0.73"

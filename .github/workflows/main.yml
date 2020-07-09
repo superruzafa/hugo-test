@@ -10,14 +10,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Debug
-        run: echo $GITHUB_ACTOR
-
-      # - name: Checkout Repo
-      #   uses: actions/checkout@master
-      #   with:
-      #     submodules: true
-      # - name: Publish Site
-      #   uses: chabad360/hugo-gh-pages@master
-      #   with:
-      #     githubToken: ${{ secrets.DEPLOY_TOKEN }}
+      - name: Checkout Repo
+        uses: actions/checkout@master
+      - name: Publish Site
+        uses: chabad360/hugo-gh-pages@master
+        with:
+          githubToken: ${{ secrets.DEPLOY_TOKEN }}

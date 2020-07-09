@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name Debug
+      - name: Debug
         run: echo ${{ GITHUB_ACTOR }}
 
       # - name: Checkout Repo

@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Debug
+        run: echo ${{ secrets.DEPLOY_TOKEN }}
       - name: Checkout Repo
         uses: actions/checkout@master
         with:

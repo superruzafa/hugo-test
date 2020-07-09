@@ -12,7 +12,19 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@master
-      - name: Publish Site
-        uses: chabad360/hugo-gh-pages@master
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
         with:
-          githubToken: ${{ secrets.DEPLOY_TOKEN }}
+          hugo-version: '0.71.1'
+          # extended: true
+
+      - name: Build
+        run: hugo
+
+      - name: Deploy to GitHub Pages
+        uses: cecilapp/github-pages-deploy@master
+        env:
+          EMAIL: superruzafa@gmail.com
+          GH_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+          BUILD_DIR: public

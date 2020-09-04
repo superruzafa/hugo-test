@@ -1,4 +1,6 @@
 {{ $about := .GetPage "about" }}
 <a href="{{ $about.Permalink }}">{{ $about.Title }}</a>
 
-{{ broken
+{{ range .Pages }}
+<p><a href="{{ .Permalink }}">{{ .Title }}</a></p>
+{{ end }}

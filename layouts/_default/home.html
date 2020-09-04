@@ -1,6 +1,3 @@
-{{ $about := .GetPage "about" }}
-<a href="{{ $about.Permalink }}">{{ $about.Title }}</a>
-
 {{ range .Pages }}
 <p><a href="{{ .Permalink }}">{{ .Title }}</a></p>
 {{ end }}

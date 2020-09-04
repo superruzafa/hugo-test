@@ -1,6 +1,6 @@
 ---
 title: Test ?
-slug: test%253f
+url: test?
 ---
 
 Test ?

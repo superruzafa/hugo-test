@@ -19,4 +19,16 @@
     <loc>http://superruzafa.github.io/hugo-test/tags/</loc>
   </url>
   
+  <url>
+    <loc>http://superruzafa.github.io/hugo-test/test%21/</loc>
+  </url>
+  
+  <url>
+    <loc>http://superruzafa.github.io/hugo-test/test%2f/</loc>
+  </url>
+  
+  <url>
+    <loc>http://superruzafa.github.io/hugo-test/test%3f/</loc>
+  </url>
+  
 </urlset>

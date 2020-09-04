@@ -1,6 +1,6 @@
 ---
 title: Test !
-slug: test%21
+slug: test%2521
 ---
 
 Test ! 

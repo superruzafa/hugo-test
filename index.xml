@@ -11,38 +11,20 @@
     
     
     <item>
-      <title>about</title>
-      <link>http://superruzafa.github.io/hugo-test/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://superruzafa.github.io/hugo-test/about/</guid>
-      <description>Hello Everyone</description>
-    </item>
-    
-    <item>
       <title>Test !</title>
-      <link>http://superruzafa.github.io/hugo-test/test%2521/</link>
+      <link>http://superruzafa.github.io/hugo-test/test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://superruzafa.github.io/hugo-test/test%2521/</guid>
+      <guid>http://superruzafa.github.io/hugo-test/test/</guid>
       <description>Test !</description>
     </item>
     
     <item>
-      <title>Test /</title>
-      <link>http://superruzafa.github.io/hugo-test/test%2f/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://superruzafa.github.io/hugo-test/test%2f/</guid>
-      <description>Test /</description>
-    </item>
-    
-    <item>
       <title>Test ?</title>
-      <link>http://superruzafa.github.io/hugo-test/test%253f/</link>
+      <link>http://superruzafa.github.io/hugo-test/test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://superruzafa.github.io/hugo-test/test%253f/</guid>
+      <guid>http://superruzafa.github.io/hugo-test/test/</guid>
       <description>Test ?</description>
     </item>
     

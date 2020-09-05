@@ -8,10 +8,6 @@
   </url>
   
   <url>
-    <loc>http://superruzafa.github.io/hugo-test/about/</loc>
-  </url>
-  
-  <url>
     <loc>http://superruzafa.github.io/hugo-test/categories/</loc>
   </url>
   
@@ -20,15 +16,11 @@
   </url>
   
   <url>
-    <loc>http://superruzafa.github.io/hugo-test/test%2521/</loc>
+    <loc>http://superruzafa.github.io/hugo-test/test/</loc>
   </url>
   
   <url>
-    <loc>http://superruzafa.github.io/hugo-test/test%2f/</loc>
-  </url>
-  
-  <url>
-    <loc>http://superruzafa.github.io/hugo-test/test%253f/</loc>
+    <loc>http://superruzafa.github.io/hugo-test/test/</loc>
   </url>
   
 </urlset>
